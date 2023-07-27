@@ -1,0 +1,86 @@
+.section2 .container
+.main{
+    margin-top: 100px;
+   display: flex;
+   gap: 53px;
+   
+    .main_right{ 
+    
+     h2{
+        margin-top: 50px;
+        height: 116px;
+       align-self: stretch;
+       color: var(--text-text-secondary, #2B2B2B);
+         font-family: Poppins;
+        font-size: 50.52px;
+         font-weight: 600;
+      line-height: 62px;
+    }
+      p{
+        color: var(--text-text-secondary, #2B2B2B);
+        /* Fonts/Body Text */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        max-width: 623px;
+    }
+}
+    .main_lift  {
+     
+    #ovri {  
+        max-width: 1300px;
+         background-image: url(../img/Group\ 15.png);
+        // overflow: hidden;
+        height: 578px;
+        //  background-repeat: no-repeat;
+    
+        }  
+       
+}
+
+}
+.icon1{
+    display: flex;
+    gap:23px;
+   
+    align-items: center;
+    margin-top: 30px;
+    p{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+text-align: center;
+font-weight: 400;
+line-height: 24px;
+
+    }
+} 
+@media (min-width:0px) and (max-width:440px) {
+.section2 .container{
+    max-width: 430px;
+    .main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+}
+@media (min-width:440px) and (max-width:1030px) {
+    .section2 .container{
+        max-width: 884px;
+        
+        
+
+    }
+    .main_right{
+        h2{
+            max-width:428px ;
+            color: aqua;
+        }
+    }
+   
+    }
+    

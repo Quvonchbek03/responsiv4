@@ -1,0 +1,104 @@
+.footer{
+  
+    margin-top: 400px;
+   
+    .container{
+        margin: 0 auto;
+        margin-bottom: 200px;
+        background: var(--color-brand-green, #285E67);
+        .foot{
+            display: flex;
+            align-items: center;
+
+            .chap1{
+               display: flex;
+              align-items: center;
+              gap: 10px;
+              h3{
+              color: aliceblue;
+              }
+              
+
+               
+            }
+            span{
+                color: white;
+            }
+            p{
+                color: white;
+            }
+            
+            padding: 30px 100px;
+            display: flex;
+            gap: 728px;
+            .foot-ong{
+                display: flex;
+                gap: 40px;
+                font-family: poppins;
+
+            }
+        }
+    }
+    .chap2{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-left: 100px;
+       
+    }
+}
+@media (min-width: 0px) and (max-width: 440px) {
+    .footer {
+        margin-top: 650px;
+        .container{
+            height: 365px;
+            max-width: 430px;
+            text-align: center;
+            .foot{
+
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    justify-content: center;
+                   .ppp{
+               
+                   }
+
+                .chap{
+                    display: flex;
+                    justify-content: center;
+                    padding-left: 100px;
+                    
+                }
+            }
+        }
+    }
+    
+}
+    
+@media (min-width: 440px) and (max-width: 1030px) {
+    .footer {
+        
+        .container{
+            height: 365px;
+            max-width: 880px;
+            text-align: center;
+            .foot{
+
+                    display: flex;
+                     flex-direction: column;
+                    gap: 10px;
+                    justify-content: center;
+                
+                .ppp{
+                   display: flex;
+                   gap: 30px;
+                   
+                }
+                
+            }
+        }
+    }
+    
+}
+    
